@@ -12,13 +12,13 @@
 
 前三列是时间，测站，所测项目，之后按照序号分别是0时，1时，2时，...，23时的各个项目指标
 
-![1554821518657](img\trainingData.png)
+![1554821518657](img/trainingData.png)
 
 测试集数据：
 
 格式：9个小时的项目数据
 
-![1554821583754](img\testingData.png)
+![1554821583754](img/testingData.png)
 
 ## 数据处理
 
@@ -138,25 +138,25 @@ print(err.sum(axis=0)/len(err)*1.0)
 
 ## 训练集误差
 
-![](img\训练集误差.png)
+![](img/训练集误差.png)
 
 ## 训练集误差（经取绝对值）
 
-![](img\训练集误差abs.png)
+![](img/训练集误差abs.png)
 
 ## 平均误差
 
-![1554822576714](img\avgErrTrain.png)
+![1554822576714](img/avgErrTrain.png)
 
 ## 测试集误差
 
-![测试集误差](img\测试集误差.png)
+![测试集误差](img/测试集误差.png)
 
 ## 测试集误差（经取绝对值）
 
-![测试集误差(abs)](\img\测试集误差abs.png)
+![测试集误差(abs)](img/测试集误差abs.png)
 
 ## 平均误差
 
-![1554822744129](img\avgErrTest.png)
+![1554822744129](img/avgErrTest.png)
 
